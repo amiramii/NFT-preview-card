@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link href="./output.css" rel="stylesheet" />
+  <style>
+    .attribution { font-size: 11px; text-align: center; padding: 1rem; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-[#0d192b] font-[Outfit] text-sky-50 flex flex-col h-screen justify-center items-center ">
+  <main class="@container bg-[#14253d] mt-40 flex flex-col  p-7 rounded-2xl w-[90%] gap-5 h-max shadow-2xl lg:w-[50%] sm:w-[70%] lg:mt-60">
+    <section>
+      <picture>
+        <img src="../images/image-equilibrium.jpg" alt="" class="w-full aspect-square object-cover rounded-2xl">
+      </picture>
+    </section>
+    <section class="flex flex-col gap-y-3">
+      <h1 class="text-2xl font-semibold">
+        Equilibrium #3429
+      </h1>
+      <p class="text-[#8bacda] text-[1.5rem] font-light ">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="flex justify-between border-b border-b-[#2f415b] py-6 ">
+        <div class="flex items-center">
+          <picture>
+            <img src="../images/icon-ethereum.svg" alt="" class="w-3.5">
+          </picture>
+          <span class="text-[#00fff7] pl-3 text-xl font-bold">
+            0.041 ETH
+          </span>
+        </div>
+        <div class="flex items-center gap-x-3">
+          <picture>
+            <img src="../images/icon-clock.svg" alt="" class="w-5">
+          </picture>
+          <span class="text-xl text-[#8bacda]">
+            3 days left
+          </span>
+        </div>
+      </div>
+      <div class="flex items-center gap-x-5">
+        <picture>
+          <img src="../images/image-avatar.png" alt="" class="w-[4rem] border-2 rounded-full ">
+        </picture>
+        <h2 class="text-2xl">
+          <span class="text-[#8bacda]">
+            Creation of
+          </span>
+          Jules Wyvern
+        </h2>
+      </div>
+    </section>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/amiramii">amiramii</a>.
+  </footer>
+</body>
+</html>
